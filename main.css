@@ -1,0 +1,360 @@
+h1, h2, h3, h4, h5, h6 { 
+    font-family: 'Lato', sans-serif; 
+    
+} 
+
+body,p{ 
+    font-family: 'Lato', sans-serif; 
+    font-weight:400;
+}
+
+.profilePic{ 
+    border-radius: 50%; 
+    height: 235.8px; 
+    width: 235.8px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 200px; 
+    /* margin-bottom: auto; */
+    
+    
+} 
+.profile_left{ 
+    background: #2b2c2c; 
+    height: 640px;
+} 
+
+.profile_right{ 
+    background: #2d2e2e; 
+    height: 640px; 
+    
+} 
+
+.about_me{ 
+    margin-left: 100px;
+    margin-top: 200px;
+    min-height: 250px;
+} 
+
+.name_first{ 
+    color: #a4a5a6; 
+    float: left; 
+    clear: left; 
+    font-family: 'Lato', sans-serif; 
+ 
+    line-break: 0.91; 
+    font-size: 2em;
+} 
+
+.name_second{ 
+color: #e0a80d; 
+float: left; 
+clear: left; 
+font-family: 'Lato', sans-serif; 
+font-size: 2em; 
+font-weight: 300; 
+} 
+
+.profile_intro{ 
+    color: #979899; 
+    float: left; 
+    clear: left; 
+    font-size: 20px; 
+    font-family: 'Lato', sans-serif; 
+} 
+
+.social_link  li{ 
+  display: inline;
+  list-style:none;
+  padding-right:5px;
+  color:#a4a5a6;
+} 
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+} 
+
+.address_details{ 
+    color: #a4a5a6; 
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600; 
+    display: flex; 
+    position: relative; 
+    margin-right: -3.5rem; 
+    flex-flow: row wrap;
+} 
+
+.intro{ 
+    background: #2d2e2e; 
+    height: 384px; 
+    float: right; 
+    
+} 
+
+.intro_right{  
+    color: #979899;
+    background: #2b2c2c; 
+    font-family: 'Lato', sans-serif;  
+    height: 384px; 
+    font-size: 18px;
+} 
+
+.intro_para{ 
+    position: absolute; 
+    top: 40%;
+    left: 30%; 
+    height: 200px;
+    width: 800px;
+    margin: -100px 0 0 -200px; 
+    font-family: 'Lato', sans-serif; 
+} 
+
+.intro_left{ 
+    position: absolute; 
+    top: 40%;
+    color:#a4a5a6; 
+    height: 200px;
+    width: 600px;
+    margin: -100px 0 0 -200px; 
+    font-family: 'Lato', sans-serif; 
+    text-align: right;
+} 
+
+.expertise_left{ 
+    height: 588px; 
+    background: #2b2c2c; 
+} 
+
+.expertise_first_header{ 
+    position: absolute; 
+    top: 25%;
+    height: 200px;
+    width: 600px;
+    margin: -100px 0 0 -200px; 
+    font-family: 'Lato', sans-serif; 
+    text-align: right; 
+    color: #979899; 
+    /* font-size: 18px; */
+} 
+
+.expertise_right{ 
+    background: #2d2e2e; 
+    font-family: 'Lato', sans-serif;  
+    height: 588px;  
+    font-size: 14px; 
+ 
+} 
+
+.expertise_number{ 
+    color: #e0a80d; 
+    font-family: 'Lato', sans-serif; 
+    display: inline-block;  
+    margin-top: 10px; 
+    font-weight: 600; 
+    font-size: 15px;
+} 
+
+.expertise_point{ 
+    color:#a4a5a6; 
+    font-family: 'Lato', sans-serif;  
+    position: absolute;
+    height: 150px;
+    width: 400px;
+    top: 50px; 
+    display: inline-block; 
+    /* margin-top: 45px;  */
+    left: 50px;
+     right: 50px; 
+    
+}       
+
+.expertise_body {
+    display: inline-block; 
+    /* width: 25px;  */
+    font-weight: 400;  
+    
+}  
+
+.expertise_paragraph{ 
+    height: 20px; 
+    width: 280px; 
+    font-weight: 400; 
+    line-height: 1.75;
+}
+
+.expertise_second_header{  
+    font-family: 'Lato', sans-serif; 
+    font-weight: 600;
+}
+
+
+.skills_left{ 
+    height: 350px;
+    background: #2d2e2e; 
+    color: #979899; 
+    
+}  
+
+.skills_left_text {
+    text-align: right;  
+    margin-top: 30px; 
+    margin-right: 30px;
+}
+
+.skills_right{   
+    height: 350px;
+    background: #2b2c2c;
+} 
+
+.progress_box{ 
+    height: 250px; 
+    width: 250px;  
+    margin-top: 10px;
+    } 
+
+.skills_right_header{ 
+color: #a4a5a6;
+} 
+
+.skills_right_header_point{ 
+    color: #e0a80d;
+} 
+
+.skills_point{ 
+    margin-top: 5px;  
+    top:30px; 
+    left: 50px;
+    
+} 
+
+.progress{
+    height: 6px !important; 
+    background-color: #a4a5a6 !important; 
+} 
+
+.skills_full{ 
+    margin-top: 10px; 
+   
+}
+.progress-bar-warning{ 
+    background-color:#e0a80d !important;
+} 
+
+.experience_left{ 
+   background-color:  #2b2c2c; 
+   height: 588px;
+} 
+
+.experience_left_text{ 
+    text-align: right;  
+    margin-top: 30px; 
+    margin-right: 30px; 
+    color: #979899; 
+}  
+
+.experience_right{ 
+    background-color:  #2d2e2e; 
+    height: 588px; 
+    
+ }  
+
+.work_summary{ 
+    color: #a4a5a6;  
+    width:10px; 
+    height: 100px;
+    position:absolute;
+    top:50px;
+    bottom:0px;
+    left:80px; 
+    margin-top: 10px; 
+    margin-bottom: 50px;
+   
+}
+
+.work_details{ 
+    color: #a4a5a6; 
+    width:10px; 
+    height: 100px;
+    position:absolute;
+    top:50px;
+    bottom:0;
+    right:40px; 
+    margin-top: 10px; 
+    margin-bottom: 50px; 
+    text-align: justify;
+  
+} 
+
+.vr {
+    width:1px;
+    background-color:#a4a5a6;
+    position:absolute;
+    top:15px;
+    bottom:0;
+    left:-5px; 
+    
+    
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #e0a80d ; 
+    position:absolute; 
+    top:0;
+    bottom:0;
+    left:-9px; 
+  }
+.education_left{ 
+    background-color:  #2d2e2e;
+    height: 588px; 
+    
+ } 
+ 
+ .education_left_text{ 
+     text-align: right;  
+     margin-top: 30px; 
+     margin-right: 30px; 
+     color: #979899; 
+ }  
+ 
+ .education_right{ 
+     background-color:  #2b2c2c;  
+     height: 588px; 
+     
+  }  
+ 
+ .education_summary{ 
+     color: #a4a5a6;  
+     width:10px; 
+     height: 100px;
+     position:absolute;
+     top:50px;
+     bottom:0px;
+     left:80px; 
+     margin-top: 10px; 
+     margin-bottom: 50px;
+    
+ }
+ 
+ .education_details{ 
+     color: #a4a5a6; 
+     width:10px; 
+     height: 100px;
+     position:absolute;
+     top:50px;
+     bottom:0;
+     right:40px; 
+     margin-top: 10px; 
+     margin-bottom: 50px; 
+     text-align: justify;
+   
+ } 
